@@ -1,0 +1,28 @@
+^C:\PRAKTIKA_BD\BUILD\WINDOWS\CMAKEFILES\9BBF0017B192AB18649DD0D42D7E40E3\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter\flutter PROJECT_DIR=C:\praktika_bd FLUTTER_ROOT=C:\flutter\flutter FLUTTER_EPHEMERAL_DIR=C:\praktika_bd\windows\flutter\ephemeral PROJECT_DIR=C:\praktika_bd FLUTTER_TARGET=C:\praktika_bd\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\praktika_bd\.dart_tool\package_config.json C:/flutter/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PRAKTIKA_BD\BUILD\WINDOWS\CMAKEFILES\19745F6AAAFDD0CE4830724DDC59C204\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PRAKTIKA_BD\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/praktika_bd/windows -BC:/praktika_bd/build/windows --check-stamp-file C:/praktika_bd/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

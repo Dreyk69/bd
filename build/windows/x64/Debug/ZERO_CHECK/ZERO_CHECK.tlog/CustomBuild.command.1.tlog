@@ -1,0 +1,10 @@
+^C:\PRAKTIKA_BD\BUILD\WINDOWS\CMAKEFILES\A93BFBB5D91DF79666FB71E29AD05D82\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/praktika_bd/windows -BC:/praktika_bd/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/praktika_bd/build/windows/praktika_bd.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

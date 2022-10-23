@@ -1,0 +1,4 @@
+#Sun Oct 23 18:47:33 GMT+03:00 2022
+base.0=C\:\\praktika_bd\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

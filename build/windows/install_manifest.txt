@@ -1,0 +1,9 @@
+C:/praktika_bd/build/windows/runner/Debug/data/icudtl.dat
+C:/praktika_bd/build/windows/runner/Debug/flutter_windows.dll
+C:/praktika_bd/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+C:/praktika_bd/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+C:/praktika_bd/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+C:/praktika_bd/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+C:/praktika_bd/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
+C:/praktika_bd/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+C:/praktika_bd/build/windows/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag
